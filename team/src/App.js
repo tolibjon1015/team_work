@@ -1,11 +1,9 @@
-import Cart from "./components/cart/Cart";
+import LoginPage from "./components/pages/LoginPage";
+
 function App() {
-  return (
-    <div className="App">
-      salom hammaga
-      <Cart />
-    </div>
-  );
+  return <div className="App">
+    <LoginPage />
+  </div>;
 }
 
 export default App;
