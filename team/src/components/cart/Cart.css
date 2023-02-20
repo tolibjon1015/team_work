@@ -1,0 +1,10 @@
+.carts {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+}
+.cart_cart {
+  border: 1px solid red;
+  width: 250px;
+  height: 200px;
+}
