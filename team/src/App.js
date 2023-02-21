@@ -1,9 +1,11 @@
-import LoginPage from "./components/pages/LoginPage";
+import Footer from "./components/footer/Footer";
 
 function App() {
-  return <div className="App">
-    <LoginPage />
-  </div>;
+  return (
+    <div className="App">
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
