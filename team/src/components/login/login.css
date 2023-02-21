@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 10px auto;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border:3px solid #000;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 415px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
