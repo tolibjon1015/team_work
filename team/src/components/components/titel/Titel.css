@@ -1,0 +1,64 @@
+.contener {
+  padding: 50px;
+  margin: auto;
+  border: 1px solid red;
+  background-color: seagreen;
+}
+.box {
+  /* width: 100%; */
+  /* margin: auto; */
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  background-color: white;
+  /* padding: 0px 0px ; */
+}
+.btn {
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: springgreen;
+  border: none;
+}
+.titels {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.cart {
+  /* border: 1px solid red; */
+  display: inline-block;
+  box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+img {
+  /* border: 1px solid red; */
+  width: 230px;
+  height: 150px;
+  cursor: pointer;
+}
+.cart-titel {
+  
+}
+.cart-p {
+  font-weight: 50;
+  color: darkgray;
+  line-height: 20px;
+}
+.cart-bun {
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  
+  border: 1px solid blue
+  
+}
+.btn-1{ 
+ width: 50px ;
+ height: 50px;
+}
+.cart-sena{
+  font-size: 24px;
+}
